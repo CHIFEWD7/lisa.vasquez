@@ -1,2 +1,0 @@
-# lisa.vasquez
-Lisa Vasquez
