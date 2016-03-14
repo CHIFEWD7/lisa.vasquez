@@ -17,8 +17,12 @@ ul{
 	padding: 0;
 }
 
-li{
+.navigation li{
 	display: inline-block;
+}
+
+li{
+	list-style-type: none;
 }
 
 .content {
