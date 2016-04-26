@@ -1,0 +1,88 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/*
+ * HEADER
+ */
+
+.MainNavigation {
+  float: right;
+}
+
+.MainNavigation-ul li {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: uppercase;
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0 .5em 0 .5em;
+} 
+
+p, 
+.MainNavigation-ul {
+  display: inline-block;
+}
+
+p {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:visited { 
+  color: #000000;
+}  
+
+header {
+  background-color: #FFFFFF;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  right: 2em;
+  bottom: 0;
+  left: 2em;
+ } 
+
+ /*
+ * CONTENT
+ */
+
+body{
+  padding: 0;
+  margin: 0;
+}
+
+.column-wrapper{  
+  margin: 3.5em 1.75em 0 1.75em;
+}
+
+.column{
+  float: left;
+  width: 33.33%;
+}
+
+.column-inner{
+  padding: .25em;
+}
+
+.column-image{
+  display: block;
+  margin-bottom: .5em;
+}
+
+.column-image img{
+  max-width: 100%;
+  display: block;
+}

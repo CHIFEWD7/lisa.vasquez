@@ -97,7 +97,7 @@ textarea {
 
 
 html { 
-  background: url("../img/leaves.jpg") no-repeat center center fixed; 
+  background: url("../img/lilypads.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -109,31 +109,47 @@ html {
  * HEADER
  */
 
-.MainNavigation{
+.MainNavigation {
   float: right;
 }
 
-.navigation li{
-    font-family: ;
-    text-transform: uppercase;
-  
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.MainNavigation-ul li {
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0 .5em 0 .5em;
 } 
 
-h1 , 
-.navigation {
-    display: inline-block;
+h1, 
+.MainNavigation-ul {
+  display: inline-block;
 }
 
-h1{
-  font-family: ;
+h1 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
   text-transform: uppercase;
 }
 
 a {
+  text-decoration: none;
   color: #FFFFFF;
+}
+
+a:visited { 
+  color: #FFFFFF;
+}  
+
+header {
+  position: absolute;
+  top: 0;
+  right: 2em;
+  bottom: 0;
+  left: 2em;
+  padding: 0;
 }
 
 
@@ -143,28 +159,38 @@ a {
  * FOOTER
  */ 
 
-.SocialMediaNavigation{
+.SocialMediaNavigation {
   float: right;
 }
 
-.SocialMedia li{
-    display: inline-block;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.SocialMediaNavigation-ul li {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0 .5em 0 .5em;
 }
 
 h5,
-.SocialMedia{
-    display: inline-block;
+.SocialMediaNavigation-ul {
+  display: inline-block;
 }
 
-footer{ 
+.SocialMediaNavigation-ul li {
+
+}
+
+footer { 
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
   position: absolute;
-  right: 0;
+  right: 2em;
   bottom: 0;
-  left: 0;
-  padding: 1%;
+  left: 2em;
+  padding: 0;
+}
+
+h5 {
+  text-transform: uppercase;
 }
 
 
